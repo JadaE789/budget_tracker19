@@ -46,7 +46,9 @@
   
   This project is under MIT for licensing.
   
- ## Screenshots
+  ## Screenshots
+
+  ![PWA_TrackerOffline](https://user-images.githubusercontent.com/77691626/124314650-bb32f180-db40-11eb-8318-94abccc5e542.PNG)
 
   ## Project Demo Link
   
