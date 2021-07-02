@@ -1,5 +1,6 @@
 const FILES_TO_CACHE = [
     "/", 
+    "/db.js",
     "/index.html", 
     "/index.js",  
     "/styles.css", 
@@ -65,16 +66,11 @@ const FILES_TO_CACHE = [
     }
   
     evt.respondWith(
-      fetch(evt.request).catch(function () {
-        return caches.match(evt.request).then(function (response) {
-          if (response) {
-            return response;
-          } else if (evt.request.headers.get("accept").includes("text/html")) {
-            // return the cached home page for all requests for html pages
-            return caches.match("/");
-          }
+      caches.open(CACHE_NAME).then( cache => {
+        return cache.match(evt.request).then(response => {
+          return response || fetch(evt.request);
         });
       })
     );
-  });
+});
   
