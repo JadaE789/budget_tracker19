@@ -9,6 +9,7 @@
   * [Business Context](#business-context)
   * [Installation](#installation)
   * [License](#license)
+  * [Screenshots](#screen-shots)
   * [Demo Video](#Project-Demo-Video)
   * [Questions?](#questions)
   
@@ -45,6 +46,8 @@
   
   This project is under MIT for licensing.
   
+ ## Screenshots
+
   ## Project Demo Link
   
   https://pwabudgettracker-19.herokuapp.com/
