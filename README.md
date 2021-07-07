@@ -48,7 +48,8 @@
   
   ## Screenshots
 
-  
+  ![PWA_TrackerOffline2](https://user-images.githubusercontent.com/77691626/124699797-81a01480-deb9-11eb-890e-c89cd3bf138f.PNG)
+
 
   ## Project Demo Link
   
